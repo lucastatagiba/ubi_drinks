@@ -2,7 +2,14 @@
   width: 70px;
   height: 30px;
   border: none;
-  background-color: var(--gray-3);
+  background-color: var(--brown-gray);
   border-radius: 8px;
-  color: var(--gray-2);
+  color: var(--gray-1);
+  transition: 0.2s ease-in-out;
+  font-weight: 700;
+  border: 2px solid var(--brown-gray);
+}
+.button:hover {
+  background-color: transparent;
+  color: var(--brown-gray);
 }

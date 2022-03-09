@@ -2,9 +2,17 @@
   width: 200px;
   height: 30px;
   border: none;
-  background-color: var(--gray-2);
+  background-color: var(--beige);
   border-radius: 8px;
+  padding: 5px;
+  color: var(--brown-gray);
+  font-weight: 700;
+  border: 2px solid transparent;
 }
 .input::placeholder {
-  color: var(--gray-3);
+  color: var(--brown-gray);
+}
+.input:focus {
+  background-color: transparent;
+  border: 2px solid var(--brown-gray);
 }
