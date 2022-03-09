@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .labelInput {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    font-weight: 600;
+  }
+  .divInput {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+  }
+}
