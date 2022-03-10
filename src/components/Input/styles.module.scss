@@ -5,14 +5,14 @@
   background-color: var(--beige);
   border-radius: 8px;
   padding: 5px;
-  color: var(--brown-gray);
+  color: var(--brown);
   font-weight: 700;
   border: 2px solid transparent;
 }
 .input::placeholder {
-  color: var(--brown-gray);
+  color: var(--brown);
 }
 .input:focus {
   background-color: transparent;
-  border: 2px solid var(--brown-gray);
+  border: 2px solid var(--brown);
 }

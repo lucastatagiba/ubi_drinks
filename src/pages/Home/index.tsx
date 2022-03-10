@@ -8,11 +8,38 @@ import {
   DrinksProviderData,
 } from "../../contexts/drinksProvider";
 import Card from "../../components/Card";
+import Footer from "../../components/Footer";
 
 const Home = () => {
-  const { drinks, handleSearchSelect, select } = useContext(
-    DrinksContext
-  ) as DrinksProviderData;
+  const { drinks, handleSearchSelect, select, handleSearchByLetter } =
+    useContext(DrinksContext) as DrinksProviderData;
+  const letters = [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+  ];
   const [placeholder, setPlaceholder] = useState("");
   useEffect(() => {
     select === "name"
@@ -48,6 +75,17 @@ const Home = () => {
             <option value="ingredients"> Ingredients </option>
           </select>
         </div>
+        <h2 className={style.filterLetterLabel}> Filtered by letter:</h2>
+        <div className={style.linkLetters}>
+          {letters.map((letter, index) => {
+            return (
+              <div key={index}>
+                <p onClick={() => handleSearchByLetter(letter)}>{letter}</p>
+                <p>|</p>
+              </div>
+            );
+          })}
+        </div>
 
         <div className={style.divInput}>
           <Input placeholder={placeholder} />
@@ -70,6 +108,7 @@ const Home = () => {
           ))}
         </ul>
       </div>
+      <Footer />
     </>
   );
 };

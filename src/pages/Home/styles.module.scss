@@ -3,13 +3,12 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: var(--gray-1);
   .labelInput {
     font-size: 18px;
     font-family: Arial, sans-serif;
     padding: 20px;
     font-weight: 600;
-    color: var(--dark-green);
+    color: var(--brown);
   }
   .divInput {
     width: 80%;
@@ -26,10 +25,10 @@
     h1 {
       font-size: 30px;
       font-family: Arial, sans-serif;
-      color: var(--dark-green);
+      color: var(--brown);
     }
     p {
-      color: var(--faded-green);
+      color: var(--brown);
       font-weight: 600;
       font-family: Arial, sans-serif;
       padding: 50px 0 10px;
@@ -44,23 +43,46 @@
     justify-content: space-around;
     padding: 30px 20px 50px;
     align-items: center;
+
     h2 {
       font-size: 20px;
       font-family: Arial, sans-serif;
-      color: var(--dark-green);
+      color: var(--brown);
     }
     select {
       border: none;
       height: 30px;
       border-radius: 8px;
       background-color: var(--beige);
-      color: var(--brown-gray);
+      color: var(--brown);
       font-weight: 600;
       cursor: pointer;
       padding: 5px;
       option {
         font-weight: 600;
       }
+    }
+  }
+  .filterLetterLabel {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: var(--brown);
+    margin-bottom: 20px;
+  }
+  .linkLetters {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    p {
+      color: var(--brown);
+      font-weight: bold;
+      cursor: pointer;
+    }
+    div {
+      display: flex;
+      gap: 5px;
     }
   }
   ul {
@@ -126,11 +148,22 @@
       gap: 20px;
       justify-content: center;
       padding-top: 50px;
+      animation: fade 0.5s linear forwards;
     }
     .sectionWelcome {
       p {
         width: 70%;
       }
     }
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

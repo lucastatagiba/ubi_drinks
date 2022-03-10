@@ -2,15 +2,15 @@
   width: fit-content;
   height: 30px;
   border: none;
-  background-color: var(--faded-green);
+  background-color: var(--brown);
   border-radius: 8px;
-  color: var(--gray-1);
+  color: var(--beige);
   transition: 0.2s ease-in-out;
   font-weight: 700;
-  border: 2px solid var(--faded-green);
+  border: 2px solid var(--brown);
   padding: 5px;
 }
 .button:hover {
   background-color: transparent;
-  color: var(--faded-green);
+  color: var(--brown);
 }

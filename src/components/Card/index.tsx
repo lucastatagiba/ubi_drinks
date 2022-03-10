@@ -15,10 +15,11 @@ const Card = ({
     <>
       {!isRecipe ? (
         <div className={style.divCard}>
-          <h2> {name} </h2>
+          <img alt="drinkImage" src={`${image}`} loading="lazy" />
 
           <div className={style.cardDownSide}>
-            <img alt="drinkImage" src={`${image}`} loading="lazy" />
+            <h2> {name} </h2>
+
             <Button isredirect nameCard={name} redirectTo="/recipe">
               Get your recipe
             </Button>

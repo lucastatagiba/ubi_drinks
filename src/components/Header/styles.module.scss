@@ -3,11 +3,13 @@
   justify-content: space-between;
   height: 300px;
   align-items: center;
-  border-bottom: 2px solid var(--dark-green);
+  border-bottom: 2px solid var(--brown);
   width: 100%;
-  background: url("https://media.istockphoto.com/photos/empty-wooden-bar-counter-picture-id624494724?b=1&k=20&m=624494724&s=170667a&w=0&h=tzoO41E90APc6Gy_HUCnnegaCKLpM7erExZOq3qV1iI=");
+  background: url(../../jez-timms-jIejftgdU3w-unsplash-removebg-preview.png);
   background-size: cover;
-  background-position: center;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: var(--black);
 
   h1 {
     color: var(--beige);
@@ -20,9 +22,13 @@
     align-items: center;
     font-family: "Syne Mono", monospace;
   }
-  @media screen and (min-width: 769px) {
-    h1 {
-      font-size: 70px;
-    }
+}
+@media screen and (min-width: 769px) {
+  .header {
+    background-size: contain;
+  }
+
+  h1 {
+    font-size: 70px;
   }
 }
