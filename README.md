@@ -5,45 +5,18 @@ Ubi Drinks
 Este projeto consiste em uma aplicação feita para consultar receita de drinks, pensando na dificuldade que temos quando recebemos algum amigo em nossa casa e queremos agradá-los com alguma bebida e não sabemos direito como fazer. Esta aplicação vem justamente para resolver este problema, nela você pode consultar variados drinks, suas receitas e ingredientes.
 Obs: Aplicação feita toda em inglês.
 
-## Available Scripts
+## O que foi feito:
 
-In the project directory, you can run:
+Primeiro dia: Foi pensado em toda a ideia da aplicação e construido toda estrutura de pastas e algumas estruturas de código, context API e alguns componentes. Foi adicionado também uma estilização básica para melhor visualização.
 
-### `yarn start`
+Segundo dia: Foi construída toda a lógica da aplicação. Busca na API, distribuição dos dados aos components, funções também foram distribuídas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Terceiro dia: Foi feita toda estilização de fato, algumas implementações de busca e alguns ajustes.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Obs: Aplicação foi feita em mobile first. bibliotecas utilizadas: react-router-dom, react-toastify e axios. Toda tipada com typescript e utilização de context API.
 
-### `yarn test`
+### Como iniciar a aplicação:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ao clonar o repositório e acessar o mesmo através do terminal, inserir o comando "yarn" para instalar as dependencias. Após isso, ainda no terminal, pode iniciar a aplicação com "yarn start". ou acessar através do link -> https://ubi-drinks.vercel.app/
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Obs: link do repositório: https://github.com/lucastatagiba/ubi_drinks
