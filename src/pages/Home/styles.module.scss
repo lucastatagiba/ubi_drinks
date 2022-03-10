@@ -8,7 +8,6 @@
     font-family: Arial, sans-serif;
     padding: 20px;
     font-weight: 600;
-    color: var(--brown);
   }
   .divInput {
     width: 80%;
@@ -25,10 +24,8 @@
     h1 {
       font-size: 30px;
       font-family: Arial, sans-serif;
-      color: var(--brown);
     }
     p {
-      color: var(--brown);
       font-weight: 600;
       font-family: Arial, sans-serif;
       padding: 50px 0 10px;
@@ -47,7 +44,6 @@
     h2 {
       font-size: 20px;
       font-family: Arial, sans-serif;
-      color: var(--brown);
     }
     select {
       border: none;
@@ -66,7 +62,6 @@
   .filterLetterLabel {
     font-size: 20px;
     font-family: Arial, sans-serif;
-    color: var(--brown);
     margin-bottom: 20px;
   }
   .linkLetters {
@@ -78,7 +73,6 @@
     justify-content: center;
     padding: 0px 10px;
     p {
-      color: var(--brown);
       font-weight: bold;
       cursor: pointer;
     }

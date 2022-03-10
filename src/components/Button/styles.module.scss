@@ -7,10 +7,6 @@
   color: var(--beige);
   transition: 0.2s ease-in-out;
   font-weight: 700;
-  border: 2px solid var(--brown);
+  border: 2px solid var(--faded-green);
   padding: 5px;
-}
-.button:hover {
-  background-color: transparent;
-  color: var(--brown);
 }

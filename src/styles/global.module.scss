@@ -15,16 +15,17 @@
   --beige: #b7ae8f;
   --brown: #4a362f;
   --black: #121210;
+  --darkmode: #1a202c;
 }
 
 html,
 body {
   background-color: var(--gray-1);
-  height: 100vh;
+  height: max-content;
 }
 
 article {
-  background-color: var(--gray-0);
+  background-color: var(--gray-1);
 }
 
 h1,

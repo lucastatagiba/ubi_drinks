@@ -9,8 +9,12 @@ import {
 } from "../../contexts/drinksProvider";
 import Card from "../../components/Card";
 import Footer from "../../components/Footer";
+import { IconButton, VStack, useColorMode } from "@chakra-ui/react";
+import { FaMoon, FaSun } from "react-icons/fa";
 
 const Home = () => {
+  const { colorMode, toggleColorMode } = useColorMode();
+
   const { drinks, handleSearchSelect, select, handleSearchByLetter } =
     useContext(DrinksContext) as DrinksProviderData;
   const letters = [
@@ -48,9 +52,41 @@ const Home = () => {
       ? setPlaceholder("Ex: cocktail, ordinary drink...")
       : setPlaceholder("Ex: Vodka, gin...");
   }, [select]);
+
   return (
     <>
       <Header />
+      <VStack p={4} />
+
+      <IconButton
+        position="fixed"
+        left="85%"
+        top="5%"
+        cursor="pointer"
+        icon={colorMode === "light" ? <FaMoon /> : <FaSun />}
+        bg={
+          colorMode === "light"
+            ? getComputedStyle(
+                document.querySelector(":root") as Element
+              ).getPropertyValue("--darkmode")
+            : getComputedStyle(
+                document.querySelector(":root") as Element
+              ).getPropertyValue("--beige")
+        }
+        color={
+          colorMode === "light"
+            ? getComputedStyle(
+                document.querySelector(":root") as Element
+              ).getPropertyValue("--beige")
+            : getComputedStyle(
+                document.querySelector(":root") as Element
+              ).getPropertyValue("--brown")
+        }
+        isRound={true}
+        size="lg"
+        onClick={toggleColorMode}
+        aria-label=""
+      />
       <div className={style.main}>
         <section className={style.sectionWelcome}>
           <h1>There is always a perfect drink for every occasion. </h1>
