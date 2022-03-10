@@ -1,5 +1,4 @@
 import { useHistory } from "react-router-dom";
-import Footer from "../../components/Footer";
 import style from "./styles.module.scss";
 
 const NotFoundPage = () => {
