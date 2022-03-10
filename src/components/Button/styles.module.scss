@@ -1,15 +1,16 @@
 .button {
-  width: 70px;
+  width: fit-content;
   height: 30px;
   border: none;
-  background-color: var(--brown-gray);
+  background-color: var(--faded-green);
   border-radius: 8px;
   color: var(--gray-1);
   transition: 0.2s ease-in-out;
   font-weight: 700;
-  border: 2px solid var(--brown-gray);
+  border: 2px solid var(--faded-green);
+  padding: 5px;
 }
 .button:hover {
   background-color: transparent;
-  color: var(--brown-gray);
+  color: var(--faded-green);
 }

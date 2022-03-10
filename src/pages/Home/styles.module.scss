@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  background-color: var(--gray-1);
   .labelInput {
     font-size: 18px;
     font-family: Arial, sans-serif;
@@ -20,6 +22,7 @@
     padding: 50px 20px 20px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     h1 {
       font-size: 30px;
       font-family: Arial, sans-serif;
@@ -30,6 +33,104 @@
       font-weight: 600;
       font-family: Arial, sans-serif;
       padding: 50px 0 10px;
+      width: 100%;
+    }
+  }
+  .selectDiv {
+    width: 100%;
+    max-width: 300px;
+    min-width: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 20px 50px;
+    align-items: center;
+    h2 {
+      font-size: 20px;
+      font-family: Arial, sans-serif;
+      color: var(--dark-green);
+    }
+    select {
+      border: none;
+      height: 30px;
+      border-radius: 8px;
+      background-color: var(--beige);
+      color: var(--brown-gray);
+      font-weight: 600;
+      cursor: pointer;
+      padding: 5px;
+      option {
+        font-weight: 600;
+      }
+    }
+  }
+  ul {
+    list-style: none;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
+
+    li {
+      width: 100%;
+      max-width: 430px;
+      h2 {
+        text-overflow: ellipsis;
+        width: 20ch;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  .main {
+    width: 80%;
+    .selectDiv {
+      width: 40%;
+      display: flex;
+      justify-content: space-around;
+      min-width: 290px;
+      max-width: 320px;
+      select {
+        width: fit-content;
+        height: 50px;
+        font-size: 18px;
+      }
+    }
+
+    .divInput {
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
+      min-width: 500px;
+      max-width: 500px;
+      input {
+        width: 60%;
+        height: 50px;
+        font-size: 18px;
+      }
+      button {
+        width: 25%;
+        height: 50px;
+        font-size: 18px;
+      }
+    }
+    ul {
+      width: 100%;
+      max-width: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding-top: 50px;
+    }
+    .sectionWelcome {
+      p {
+        width: 70%;
+      }
     }
   }
 }

@@ -11,7 +11,7 @@
   --gray-4: #212529;
   --gray-3: #343b41;
   --gray-2: #868e96;
-  --gray-1: #ededee;
+  --gray-1: #d6d6da;
   --gray-0: #f8f9fa;
   --dark-green: #394736;
   --faded-green: #696b46;
@@ -21,8 +21,6 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
   background-color: var(--gray-1);
 }
 article {
@@ -42,7 +40,6 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   padding-bottom: 100px;
   text-align: center;
 }
