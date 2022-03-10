@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Titulo e descrição
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ubi Drinks
+
+Este projeto consiste em uma aplicação feita para consultar receita de drinks, pensando na dificuldade que temos quando recebemos algum amigo em nossa casa e queremos agradá-los com alguma bebida e não sabemos direito como fazer. Esta aplicação vem justamente para resolver este problema, nela você pode consultar variados drinks, suas receitas e ingredientes.
+Obs: Aplicação feita toda em inglês.
 
 ## Available Scripts
 
