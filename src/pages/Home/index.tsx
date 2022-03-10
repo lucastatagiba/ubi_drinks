@@ -60,6 +60,7 @@ const Home = () => {
 
       <IconButton
         position="fixed"
+        zIndex="20"
         left="85%"
         top="5%"
         cursor="pointer"
