@@ -11,9 +11,9 @@ Primeiro dia: Foi pensado em toda a ideia da aplicação e construido toda estru
 
 Segundo dia: Foi construída toda a lógica da aplicação. Busca na API, distribuição dos dados aos components, funções também foram distribuídas.
 
-Terceiro dia: Foi feita toda estilização de fato, algumas implementações de busca e alguns ajustes.
+Terceiro dia: Foi feita toda estilização de fato, algumas implementações de busca e alguns ajustes. Também foi adicionado de ultima hora o light/dark mode theme com chakra UI salvando o tema no localstorage.
 
-Obs: Aplicação foi feita em mobile first. bibliotecas utilizadas: react-router-dom, react-toastify e axios. Toda tipada com typescript e utilização de context API.
+Obs: Aplicação foi feita em mobile first. bibliotecas utilizadas: react-router-dom, react-toastify, axios, chakra UI e react-icons. Toda tipada com typescript e utilização de context API.
 
 ### Como iniciar a aplicação:
 
