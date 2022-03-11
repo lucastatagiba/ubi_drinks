@@ -10,8 +10,8 @@ Obs: Aplicação feita toda em inglês.
 
 - Light/dark mode theme fixado na pagina principal(HOME) salvando a configuração no localstorage. 
 
-- Na Pagina Home foi implementado um paragrafo de apresentação e logo abaixo o sistema de busca de bebidas, no qual voce pode filtrar pelo nome da bebida, categoria, ingredientes e até pela primeira letra do nome da bebida.
-Logo quando o usuário buscar, ele verá o nome da bebida, a foto e um botão para ver a receita. 
+- Na Pagina Home foi implementado um paragrafo de apresentação e logo abaixo o sistema de busca de bebidas, no qual o usuário pode filtrar pelo nome da bebida, categoria, ingredientes e até pela primeira letra do nome da bebida.
+Logo quando o usuário buscar, ele verá os cards abaixo com o nome da bebida, a foto e um botão para ver a receita. 
 
 - Clicando no botão, o usuário é redirecionado para a pagina "/recipe:NomedaBebida", no qual ali vai renderizar um card com o nome da bebida, foto, ingredientes, receita, categoria e tipo.
 
