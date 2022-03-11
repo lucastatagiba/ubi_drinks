@@ -16,7 +16,6 @@ Logo quando o usuário buscar, ele verá o nome da bebida, a foto e um botão pa
 - Clicando no botão, o usuário é redirecionado para a pagina "/recipe:NomedaBebida", no qual ali vai renderizar um card com o nome da bebida, foto, ingredientes, receita, categoria e tipo.
 
 - Se o usuário tentar acessar uma rota inexistente, ele será redirecionado para uma pagina personalizada que conterá uma mensagem de erro e um botão para voltar a pagina Home.
-- 
 
 ## O que foi feito:
 
