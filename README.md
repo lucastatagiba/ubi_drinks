@@ -28,7 +28,7 @@ Terceiro dia: Foi feita toda estilização de fato, algumas implementações de 
 
 Obs: Aplicação foi feita em mobile first. bibliotecas utilizadas: react-router-dom, react-toastify, axios, chakra UI e react-icons. Toda tipada com typescript e utilização de context API.
 
-### Como iniciar a aplicação:
+## Como iniciar a aplicação:
 
 Ao clonar o repositório e acessar o mesmo através do terminal, inserir o comando "yarn" para instalar as dependencias. Após isso, ainda no terminal, pode iniciar a aplicação com "yarn start". ou acessar através do link -> https://ubi-drinks.vercel.app/
 
